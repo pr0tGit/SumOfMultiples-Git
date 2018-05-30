@@ -11,5 +11,11 @@ namespace SumOfMultiples_Git
         static void Main(string[] args)
         {
         }
+
+        public static int Sum(IEnumerable<int> multiples, int max)
+        {
+            return 0;
+
+        } // end of Sum method
     }
 }
