@@ -10,7 +10,7 @@ namespace SumOfMultiples_Git
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Sum(new int[] { 3, 5 }, 20));
+            Console.WriteLine(Sum(new int[] { 3, 5 }, 10));
             Console.ReadLine();
         }
 
