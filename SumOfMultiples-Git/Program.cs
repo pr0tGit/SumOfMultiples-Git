@@ -17,11 +17,11 @@ namespace SumOfMultiples_Git
         public static int Sum(IEnumerable<int> multiples, int max)
         {
             var sum = new List<int>();
-            var elements = Enumerable.Range(1, max - 1).ToList<int>();
+            var elements = Enumerable.Range(1, max - 1);
 
             foreach (int m in multiples)
             {
-                var temp = elements.Where((elem) => elem % m == 0).ToList();
+                var temp = elements.Where(elem => elem % m == 0).ToList<int>();
                 sum.AddRange(temp);
             }
 
