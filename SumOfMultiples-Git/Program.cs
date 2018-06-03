@@ -21,7 +21,7 @@ namespace SumOfMultiples_Git
 
             foreach (int m in multiples)
             {
-                var temp = elements.Where(elem => elem % m == 0).ToList<int>();
+                var temp = elements.Where(elem => elem % m == 0); // .ToList<int>();
                 sum.AddRange(temp);
             }
 
